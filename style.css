@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+header .logo {
+    height: 50px;
+    width: auto;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+.phones-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.phone {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.phone img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.phone:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px lightblue;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
